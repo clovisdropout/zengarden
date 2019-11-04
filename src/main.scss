@@ -1,0 +1,16 @@
+@import "https://use.typekit.net/pqd7jbp.css";
+@import "https://necolas.github.io/normalize.css/8.0.1/normalize.css";
+@import "variables.scss";
+@import "mixins.scss";
+
+
+    html{
+        font-family: acumin-pro, sans-serif;
+}
+
+    // Contraintes SASS:
+    // 4 variables
+    // 2 mixins
+    // 2 extends
+    // 2 imbrications
+    // 2 sélecteurs parents
