@@ -1,13 +1,108 @@
-@import "https://use.typekit.net/pqd7jbp.css";
+@import url("https://use.typekit.net/pqd7jbp.css");
 @import "https://necolas.github.io/normalize.css/8.0.1/normalize.css";
 @import "variables.scss";
 @import "mixins.scss";
 
 
     html{
-        font-family: acumin-pro, sans-serif;
-}
+        font-family: source-code-pro, monospace;
+    }
+    
+    body{
+        background:$color1;
+        display: flex;
+    }
 
+    a{
+        text-decoration: none;
+        color: $color4;
+    }
+
+    p{
+        color: $color4;
+    }
+
+    abbr{
+        border-bottom: 0px !important;
+        text-decoration: unset;
+    }
+
+    h1{
+        @include block();
+        color: $color4;
+        left: 10%;
+        top: 3%;
+        font-size: 3em;
+        background: $color1;
+    }
+
+    h2{
+        color: $color4;
+        position: absolute;
+        left: 10%;
+        top: 16%;
+        font-size: 1em;
+        font-weight: 100;
+        
+    }
+
+    .summary{
+        left: 10%;
+        width: 40%;
+        top: 30%;
+        color: #ffffff;
+        @include block ();
+    }
+
+    h3{
+        color: $color4;
+    }
+
+    .preamble{
+        @include block();
+        left: 10%;
+        width: 40%;
+        top: 50%;
+        color: $color1;
+    }
+
+    .main{
+        display: none;
+    }
+
+    .wrapper{
+        @include sidebar();
+        top: 30%;
+        right: 5%;
+        color: $color4;
+    }
+
+    li{
+        color: $color4;
+        list-style: none;
+        color: $color4;
+    }
+
+    .select{
+        color: $color4;
+    }
+    .archives{
+        color: $color4;
+    }
+    .resources{
+        color: $color4;
+    }
+
+    .explanation{
+
+    }
+
+
+
+
+
+
+    
     // Contraintes SASS:
     // 4 variables
     // 2 mixins

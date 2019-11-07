@@ -1,0 +1,16 @@
+@mixin block {
+    position: absolute;
+    padding: 20px;
+    background: $color1;
+
+    border: 3px solid $color4;
+
+}
+
+@mixin sidebar {
+    position: absolute;
+    padding: 20px;
+    background: $color1;
+    border: 3px solid $color4;
+
+}

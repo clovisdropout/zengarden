@@ -1,18 +1,105 @@
-/* Error: Expected expression.
- *   ,
- * 1 | $red: 
- *   |       ^
- *   '
- *   src/variables.scss 1:7  @import
- *   src/main.scss 3:9       root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected expression.\a   \2577 \a 1 \2502  $red: \a   \2502        ^\a   \2575 \a   src/variables.scss 1:7  @import\a   src/main.scss 3:9       root stylesheet";
+@import url("https://use.typekit.net/pqd7jbp.css");
+@import "https://necolas.github.io/normalize.css/8.0.1/normalize.css";
+html {
+  font-family: source-code-pro, monospace;
 }
+
+body {
+  background: #ffffff;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+p {
+  color: #000000;
+}
+
+abbr {
+  border-bottom: 0px !important;
+  text-decoration: unset;
+}
+
+h1 {
+  position: absolute;
+  padding: 20px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  color: #000000;
+  left: 10%;
+  top: 3%;
+  font-size: 3em;
+  background: #ffffff;
+}
+
+h2 {
+  color: #000000;
+  position: absolute;
+  left: 10%;
+  top: 16%;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+.summary {
+  left: 10%;
+  width: 40%;
+  top: 30%;
+  color: #ffffff;
+  position: absolute;
+  padding: 20px;
+  background: #ffffff;
+  border: 3px solid #000000;
+}
+
+h3 {
+  color: #000000;
+}
+
+.preamble {
+  position: absolute;
+  padding: 20px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  left: 10%;
+  width: 40%;
+  top: 50%;
+  color: #ffffff;
+}
+
+.main {
+  display: none;
+}
+
+.wrapper {
+  position: absolute;
+  padding: 20px;
+  background: #ffffff;
+  border: 3px solid #000000;
+  top: 30%;
+  right: 5%;
+  color: #000000;
+}
+
+li {
+  color: #000000;
+  list-style: none;
+  color: #000000;
+}
+
+.select {
+  color: #000000;
+}
+
+.archives {
+  color: #000000;
+}
+
+.resources {
+  color: #000000;
+}
+
+/*# sourceMappingURL=style.css.map */
