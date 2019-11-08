@@ -23,8 +23,7 @@
     }
 
     abbr{
-        border-bottom: 0px !important;
-        text-decoration: unset;
+        text-decoration: unset !important ;
     }
 
     h1{
@@ -66,9 +65,6 @@
         color: $color1;
     }
 
-    .main{
-        display: none;
-    }
 
     .wrapper{
         @include sidebar();
@@ -83,6 +79,39 @@
         color: $color4;
     }
 
+    .explanation{
+        @include block ();
+        top: 90%;
+    }
+
+    .participation{
+        @include block ();
+        width: 70%;
+        top: 132%;
+    }
+
+    .benefits{
+        @include block ();
+        width: 70%;
+        top: 168%;
+    }
+    .requirements{
+        @include block ();
+        width: 70%;
+        top: 192%;
+        
+    }
+
+    footer{
+        @include footer ();
+        width: 11%;
+        top: 90%;
+        right: 5%;
+        margin-bottom: 100px;
+    }
+
+
+
     .select{
         color: $color4;
     }
@@ -93,10 +122,7 @@
         color: $color4;
     }
 
-    .explanation{
-
-    }
-
+    
 
 
 

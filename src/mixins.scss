@@ -2,7 +2,8 @@
     position: absolute;
     padding: 20px;
     background: $color1;
-
+    left: 10%;
+    width: 40%;
     border: 3px solid $color4;
 
 }
@@ -13,4 +14,11 @@
     background: $color1;
     border: 3px solid $color4;
 
+}
+
+@mixin footer {
+    position: absolute;
+    padding: 20px;
+    background: $color1;
+    border: 3px solid $color4;
 }
