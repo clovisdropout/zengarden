@@ -5,11 +5,12 @@
 
 
     html{
-        font-family: source-code-pro, monospace;
+        font-family: acumin-pro, sans-serif;
+        letter-spacing: 1px;
     }
     
     body{
-        background:$color1;
+        background:$color3;
         display: flex;
     }
 
@@ -28,18 +29,21 @@
 
     h1{
         @include block();
-        color: $color4;
+        color: $color3;
         left: 10%;
-        top: 3%;
+        top: 5%;
         font-size: 3em;
         background: $color1;
+        width: 23%;
+        box-shadow: 0px 0px 78px -45px rgba(0,0,0,1);
+
     }
 
     h2{
-        color: $color4;
+        color: $color1;
         position: absolute;
         left: 10%;
-        top: 16%;
+        top: 18%;
         font-size: 1em;
         font-weight: 100;
         
@@ -54,7 +58,7 @@
     }
 
     h3{
-        color: $color4;
+        color: $color3;
     }
 
     .preamble{
@@ -70,7 +74,6 @@
         @include sidebar();
         top: 30%;
         right: 5%;
-        color: $color4;
     }
 
     li{
@@ -81,24 +84,26 @@
 
     .explanation{
         @include block ();
-        top: 90%;
+        top: 84%;
     }
 
     .participation{
         @include block ();
         width: 70%;
-        top: 132%;
+        top: 122%;
     }
 
     .benefits{
         @include block ();
         width: 70%;
-        top: 168%;
+        top: 158%;
     }
     .requirements{
         @include block ();
         width: 70%;
-        top: 192%;
+        top: 182%;
+        margin-bottom: 70px;
+
         
     }
 
@@ -107,26 +112,21 @@
         width: 11%;
         top: 90%;
         right: 5%;
-        margin-bottom: 100px;
     }
 
 
 
     .select{
-        color: $color4;
+        color: $color3;
     }
     .archives{
-        color: $color4;
+        color: $color3;
     }
     .resources{
-        color: $color4;
+        color: $color3;
     }
 
     
-
-
-
-
 
     
     // Contraintes SASS:
