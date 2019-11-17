@@ -6,17 +6,17 @@ html {
 }
 
 body {
-  background: #23272a;
+  background: #ffffff;
   display: flex;
 }
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
 }
 
 p {
-  color: #ffffff;
+  color: #000000;
 }
 
 abbr {
@@ -26,9 +26,10 @@ abbr {
 h1 {
   position: absolute;
   padding: 20px;
-  background: #23272a;
+  background: #ffffff;
   left: 10%;
   width: 40%;
+  border: 1px solid #7289da;
   color: #7289da;
   left: 10%;
   top: 5%;
@@ -39,15 +40,10 @@ h1 {
 h2 {
   color: #DFDFDF;
   position: absolute;
-  left: 11%;
+  left: 10%;
   font-size: 1em;
   font-weight: 100;
-  position: absolute;
-  padding: 20px;
-  background: #23272a;
-  left: 10%;
-  width: 40%;
-  top: 15%;
+  top: 18%;
   background-color: none;
 }
 
@@ -62,9 +58,10 @@ h2 {
   color: #ffffff;
   position: absolute;
   padding: 20px;
-  background: #23272a;
+  background: #ffffff;
   left: 10%;
   width: 40%;
+  border: 1px solid #7289da;
 }
 
 h3 {
@@ -74,9 +71,10 @@ h3 {
 .preamble {
   position: absolute;
   padding: 20px;
-  background: #23272a;
+  background: #ffffff;
   left: 10%;
   width: 40%;
+  border: 1px solid #7289da;
   left: 10%;
   width: 40%;
   top: 50%;
@@ -86,7 +84,8 @@ h3 {
 .wrapper {
   position: absolute;
   padding: 20px;
-  background: #23272a;
+  background: #ffffff;
+  border: 1px solid #7289da;
   top: 30%;
   right: 5%;
 }
@@ -102,18 +101,20 @@ li {
 .explanation {
   position: absolute;
   padding: 20px;
-  background: #23272a;
+  background: #ffffff;
   left: 10%;
   width: 40%;
+  border: 1px solid #7289da;
   top: 84%;
 }
 
 .participation {
   position: absolute;
   padding: 20px;
-  background: #23272a;
+  background: #ffffff;
   left: 10%;
   width: 40%;
+  border: 1px solid #7289da;
   width: 70%;
   top: 122%;
 }
@@ -121,9 +122,10 @@ li {
 .benefits {
   position: absolute;
   padding: 20px;
-  background: #23272a;
+  background: #ffffff;
   left: 10%;
   width: 40%;
+  border: 1px solid #7289da;
   width: 70%;
   top: 158%;
 }
@@ -131,9 +133,10 @@ li {
 .requirements {
   position: absolute;
   padding: 20px;
-  background: #23272a;
+  background: #ffffff;
   left: 10%;
   width: 40%;
+  border: 1px solid #7289da;
   width: 70%;
   top: 182%;
   margin-bottom: 70px;
@@ -142,7 +145,8 @@ li {
 footer {
   position: absolute;
   padding: 20px;
-  background: #23272a;
+  background: #ffffff;
+  border: 1px solid #7289da;
   width: 11%;
   top: 90%;
   right: 5%;
