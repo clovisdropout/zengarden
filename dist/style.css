@@ -36,6 +36,9 @@ h1 {
   font-size: 3em;
   width: 23%;
 }
+h1:hover {
+  background-color: #23272a;
+}
 
 h2 {
   color: #DFDFDF;
